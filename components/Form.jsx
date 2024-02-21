@@ -137,7 +137,7 @@ export default function Form({ topic, value, color }) {
         <option value="TemplateSeven" selected={value == "TemplateSeven" ? true : false}>Plantilla 7-{topic == 'GestionDeGobierno' ? 'GESTIÓN DE GOBIERNO' :topic == 'Salud' ? 'Ciudades': topic}</option>
         <option value="TemplateEight" selected={value == "TemplateEight" ? true : false}>Plantilla 8-{topic == 'GestionDeGobierno' ? 'GESTIÓN DE GOBIERNO' :topic == 'Salud' ? 'Ciudades': topic}</option>
       </select>
-
+       
       {userDB && userDB.users && userDB.users[user.uid] && userDB.users[user.uid].rol === 'periodista' || viewPeriodista == true ?
 
         <div className={style.formInputs}>

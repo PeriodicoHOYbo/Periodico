@@ -122,7 +122,7 @@ export default function Section({ topic, publicView, color }) {
             }
             {/* <Modal topic={topic} carpeta={dataEditor.carpeta} i={dataEditor.i} close={handlerClickEnlace} ></Modal> */}
             {userDB[topic] !== null && publicView == false && <Form topic={topic} value={userDB[`${topic}-${date}`]} color={color}></Form>}
-
+        
             {user && userDB && userDB.users && userDB.users[user.uid] !== undefined && userDB.users[user.uid] && userDB.users[user.uid].rol === 'admin' && publicView == false && viewPeriodista == false &&
                 <>
                     <div className={`grid ${topic !== 'Inicio' ? 'grid-cols-3' : 'grid-cols-3'} gap-2`}>

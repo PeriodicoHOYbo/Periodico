@@ -157,7 +157,7 @@ function Layout({ children }) {
                             
                             <br />
                             <Link href="/Login" legacyBehavior scroll={false}>
-                                <a onClick={handlerClick}> <span> ©TARKAN.</span></a>
+                                <a onClick={handlerClick}> <span> ©TARKAN Ltda.</span></a>
 
                             </Link>
                             <Link href="https://swoou.com/" legacyBehavior scroll={false}>

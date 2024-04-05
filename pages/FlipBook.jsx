@@ -15,7 +15,7 @@ function MyBook(props) {
         userDB && userDB !== undefined && userDB.EdicionDigital && userDB.EdicionDigital[router.query.edicion] && userDB.EdicionDigital[router.query.edicion] !== undefined && <div className='absolute h-full w-full'>
             <NavbarBack></NavbarBack>
             <div className={`flex h-full w-full items-center justify-center ${zoom && 'pointer-events-none'}`} onClick={(e) => e.preventDefault()}>
-              <HTMLFlipBook
+             <HTMLFlipBook
     width={(screen.width - 100) / 2}
     height={screen.height * 0.83}
     maxShadowOpacity={0.5}
@@ -29,9 +29,9 @@ function MyBook(props) {
         const leftOrRight = isOdd ? 'right' : 'left';
         return (
             <div
-                className={`relative w-full h-full flex items-center ${leftOrRight}-0`}
+                className={`relative w-full h-full flex items-center justify-center ${leftOrRight}-0`}
                 key={index}
-                style={{ display: 'flex', justifyContent: 'space-between' }}
+                style={{ display: 'flex', justifyContent: 'space-between', padding: '0 20px' }}
             >
                 <img
                     className='w-full h-full object-contain object-center'

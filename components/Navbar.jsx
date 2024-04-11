@@ -105,7 +105,7 @@ export default function Navbar() {
                     </Link>
                     <Link href="https://clasificados.hoy.bo/" legacyBehavior scroll={false}>
                         <a className={`absolute pt-[5px] top-0 bottom-0 my-auto  right-[0px] ${pathname == "#Sociedad" ? style.active : ''}`} onClick={handlerClick}>
-                            <span className='  h-[30px] rounded-full flex justify-center items-center bg-white rounded my-auto '><img src={'/clasificados_v2.jpeg'} className="block h-[30px] rounded-full cursor-pointer" onClick={() => router.push('https://clasificados.hoy.bo/')} alt="" /></span>
+                            <span className='  h-[40px] rounded-full flex justify-center items-center bg-white rounded my-auto '><img src={'/clasificados_v2.jpeg'} className="block h-[40px] rounded-full cursor-pointer" onClick={() => router.push('https://clasificados.hoy.bo/')} alt="" /></span>
                         </a>
                     </Link>
                 </nav>

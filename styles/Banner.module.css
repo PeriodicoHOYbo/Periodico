@@ -227,11 +227,7 @@
   }
   .containerFadeLeft,
   .containerFadeRight {
-   /* display: none;*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    display: none;
   }
   .containerFadeNota {
   display: inline-block;

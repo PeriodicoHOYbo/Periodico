@@ -97,6 +97,7 @@
 
 @media (max-width: 765px) {
   .nav {
-    font-size: 9px;
+    /*font-size: 9px;*/
+    display: none;
   }
 }

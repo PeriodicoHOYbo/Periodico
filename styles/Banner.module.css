@@ -29,6 +29,7 @@
   width: 100%;
   max-height: 400px;
   object-fit: contain;
+  cursor: pointer;
 }
 
 .containerFade> :nth-child(1), .containerFadeBanner> :nth-child(1) {

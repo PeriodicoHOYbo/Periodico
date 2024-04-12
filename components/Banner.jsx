@@ -83,7 +83,7 @@ export default function Banner({ ruta, carpeta, click }) {
                         </div>
                     </div>)
 
-                : <Fade transitionDuration={800} duration={2000} scale={1} {...properties} indicators={true}>
+                : <Fade transitionDuration={800} duration={900} scale={1} {...properties} indicators={true}>
                     {Object.keys(userDB[ruta][carpeta]).map((i, index) =>
                         <div className="each-slide" key={index}>
                             <div>

@@ -81,9 +81,9 @@ export default function Navbar({ footer }) {
                 {/* <Link href="/#Opinion" legacyBehavior scroll={false}>
                     <a className={`${style.link} ${pathname == "#Opinion" ? style.active : ''}`} onClick={handlerClick}>OPINIÓN</a>
                 </Link> */}
-                <Link href="/#Imagenes" legacyBehavior scroll={false}>
+                {/* <Link href="/#Imagenes" legacyBehavior scroll={false}>
                     <a className={`${style.link} ${pathname == "#Imagenes" ? style.active : ''}`} onClick={handlerClick}>IMÁGENES</a>
-                </Link>
+                </Link>*/}       
                 <Link href="/#Videos" legacyBehavior scroll={false}>
                     <a className={`${style.link} ${pathname == "#Videos" ? style.active : ''}`} onClick={handleClick}>VIDEOS</a>
                 </Link>

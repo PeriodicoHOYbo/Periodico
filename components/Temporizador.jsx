@@ -41,7 +41,7 @@ function Temporizador({topic}) {
     }
     useEffect(() => {
         if (timer) {
-            zoomIMG === undefined && userDB && userDB[topic && topic !== undefined ? topic : 'Inicio'] && userDB[topic && topic !== undefined ? topic : 'Inicio']['Modals'] && Object.values(userDB[topic && topic !== undefined ? topic : 'Inicio']['Modals']).length > 0 && setUserModalsInterval(12000)
+            zoomIMG === undefined && userDB && userDB[topic && topic !== undefined ? topic : 'Inicio'] && userDB[topic && topic !== undefined ? topic : 'Inicio']['Modals'] && Object.values(userDB[topic && topic !== undefined ? topic : 'Inicio']['Modals']).length > 0 && setUserModalsInterval(60000)
         } else if (!timer && timerId) {
             clearTimeout(timerId);
             setTimer(true)

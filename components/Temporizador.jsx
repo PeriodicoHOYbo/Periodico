@@ -18,7 +18,7 @@ function Temporizador({topic}) {
 
     const setTimeOut2 = () => setTimeout(() => {
         closeZoom()
-    }, 50000)
+    }, 10000)
 
     const setUserModalsInterval = (time) => {
         let id = setTimeout(() => {
@@ -28,7 +28,7 @@ function Temporizador({topic}) {
                 setFirs(false)
                 setTimeOut2()
             }
-        }, first ? 10000 : time)
+        }, first ? 3000 : time)
 
         setTimerId(id)
     }

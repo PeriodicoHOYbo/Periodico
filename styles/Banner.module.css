@@ -188,23 +188,6 @@
     cursor: pointer;
     height: 25vh;
   }
-.containerFadeLeft,
-  .containerFadeRight {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%; /* adjust the width as needed */
-  }
-  .containerFadeLeft {
-    left: 0;
-    transform: translate(-50%, calc(-50% + 10vh));
-  }
-  .containerFadeRight {
-    right: 0;
-    transform: translate(-50%, calc(-50% - 10vh));
-  }
-
 }
 @media (max-width: 1250px) {
 
@@ -239,22 +222,6 @@
   .containerFadeBanner {
     width: 100vw;
     padding: 0 5px;
-  }
-  .containerFadeLeft,
-  .containerFadeRight {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%; /* adjust the width as needed */
-  }
-  .containerFadeLeft {
-    left: 0;
-    transform: translate(-50%, calc(-50% + 10vh));
-  }
-  .containerFadeRight {
-    right: 0;
-    transform: translate(-50%, calc(-50% - 10vh));
   }
   .containerFadeNota {
   display: inline-block;
